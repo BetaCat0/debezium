@@ -166,6 +166,13 @@
                 <version>${version.postgresql.driver}</version>
             </dependency>
 
+            <!-- OpenGauss connector -->
+            <dependency>
+                <groupId>org.opengauss</groupId>
+                <artifactId>opengauss-jdbc</artifactId>
+                <version>${version.opengauss.driver}</version>
+            </dependency>
+
             <!--Make sure this version is compatible with the Protbuf-C version used on the server -->
             <dependency>
                 <groupId>com.google.protobuf</groupId>
@@ -549,6 +556,11 @@
             <dependency>
                 <groupId>io.debezium</groupId>
                 <artifactId>debezium-connector-postgres</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.debezium</groupId>
+                <artifactId>debezium-connector-opengauss</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
