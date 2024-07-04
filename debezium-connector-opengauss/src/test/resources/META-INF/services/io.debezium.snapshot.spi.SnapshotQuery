@@ -1,0 +1,3 @@
+io.debezium.custom.snapshotter.CustomTestSnapshot
+io.debezium.connector.opengauss.CustomPartialTableTestSnapshot
+io.debezium.connector.opengauss.CustomStartFromStreamingTestSnapshot
